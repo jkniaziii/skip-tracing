@@ -3,9 +3,10 @@ import { Container, Row, Col } from "react-bootstrap";
 import homeLogo from "../../Assets/home-main.svg";
 import Particle from "../Particle";
 import Home2 from "./Home2";
-import OrderPage from '../Order/index'
+import OrderPage from '../Order/order'
 import About from '../About/About'
-
+import Contact from '../Contact/contact'
+import Reviews from '../Reviews/Reviews'
 function Home() {
   return (
     <section>
@@ -19,8 +20,11 @@ function Home() {
                 Accurate Realestate Services.
               </div>
               <div>
-                We help our clients succeed by providing latestest real estate leads, and accurate data. We know how
-                important the quality and the accuracy is, in real estate business.
+              We assist our clients in achieving their goals by providing them with the most up-to-date real estate leads and accurate data. 
+              We understand the critical importance of quality and accuracy in the real estate industry and strive to ensure that our clients 
+              have the information they need to make informed decisions. Our team of experts is dedicated to staying current with the latest 
+              trends and developments in the real estate market, so that we can provide our clients with the most relevant and valuable leads. 
+              We are committed to helping our clients succeed by providing them with the best possible service and support. 
               </div>
             </Col>
 
@@ -36,8 +40,10 @@ function Home() {
         </Container>
       </Container>
       <Home2 />
+      <Reviews />
       <About isHome={true} />
-      <OrderPage />
+      <OrderPage isHome={true}/>
+      <Contact />
     </section>
   );
 }
