@@ -3,7 +3,8 @@ import { Container, Row, Col } from "react-bootstrap";
 import homeLogo from "../../Assets/home-main.svg";
 import Particle from "../Particle";
 import Home2 from "./Home2";
-import Type from "./Type";
+import OrderPage from '../Order/index'
+import About from '../About/About'
 
 function Home() {
   return (
@@ -15,7 +16,7 @@ function Home() {
             <Col md={7} className="home-header">
               <div className="heading"> SKIP TRACING AGENCY </div>
               <div className="heading-name">
-                   Accurate Realestate Services.
+                Accurate Realestate Services.
               </div>
               <div>
                 We help our clients succeed by providing latestest real estate leads, and accurate data. We know how
@@ -35,6 +36,8 @@ function Home() {
         </Container>
       </Container>
       <Home2 />
+      <About isHome={true} />
+      <OrderPage />
     </section>
   );
 }

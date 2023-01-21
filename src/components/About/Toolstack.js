@@ -10,21 +10,21 @@ import {
 
 function Toolstack() {
   return (
-    <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+    <Row className="tech-stack-section">
       <Col xs={4} md={2} className="tech-icons">
-       <div>Tloxp</div>
+        <div className="stack-title">Tloxp</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <div>BeenVerified</div>
+        <div className="stack-title">BeenVerified</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-      <div>LexisNexis</div>
+        <div className="stack-title">LexisNexis</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-       <div>PropStream</div>
+        <div className="stack-title">PropStream</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <div>Intelius</div>
+        <div className="stack-title">Intelius</div>
       </Col>
     </Row>
   );

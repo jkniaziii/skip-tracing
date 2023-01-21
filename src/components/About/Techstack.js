@@ -6,7 +6,7 @@ import { AiFillHome, AiFillSignal, AiFillFileExcel, AiOutlineFileSearch } from "
 
 function Techstack() {
   return (
-    <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+    <Row className="tech-stack-section">
       <Col xs={4} md={2} className="tech-icons">
         <BsFillTelephoneForwardFill />
         <div className="tech-icon-des">Cold Calling</div>

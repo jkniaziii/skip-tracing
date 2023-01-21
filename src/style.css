@@ -258,10 +258,10 @@ button:focus {
 .home-section {
   position: relative;
   z-index: -1;
-  background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
+  /* background-image: var(--image-gradient), url(./Assets/home-bg.jpg); */
   background-position: top center;
   background-repeat: no-repeat;
-  padding-bottom: 30px !important;
+  /* padding-bottom: 30px !important; */
   padding-top: 30px !important;
 }
 
@@ -343,8 +343,8 @@ button:focus {
 
 .home-about-section {
   position: relative;
-  padding-bottom: 70px !important;
-  padding-top: 70px !important;
+  /* padding-bottom: 70px !important; */
+  /* padding-top: 70px !important; */
 }
 
 .home-about-description {
@@ -559,6 +559,8 @@ button:focus {
   font-size: 2.3em !important;
   font-weight: 500 !important;
   padding-top: 10px !important;
+  padding-bottom: 30px !important;
+
 }
 
 /* --------- */
@@ -569,7 +571,7 @@ button:focus {
   position: relative !important;
   padding-top: 150px !important;
   padding-bottom: 30px !important;
-  background-image: var(--section-background-color) !important;
+  /* background-image: var(--section-background-color) !important; */
   color: white !important;
 }
 .logo-container{
@@ -580,8 +582,9 @@ button:focus {
 }
 
 .tech-icons {
-  font-size: 3em !important;
-  margin: 15px !important;
+  cursor: pointer;
+  font-size: 2.5em !important;
+  margin: 15px 0px !important;
   padding: 10px !important;
   opacity: 0.93 !important;
   border: 1.7px solid rgba(200, 137, 230, 0.637) !important;
@@ -595,9 +598,11 @@ button:focus {
 }
 .tech-icon-des{
   font-size: 20px !important;
-
 }
 
+.stack-title{
+  padding: 15px 0px !important;
+}
 @media (max-width: 767px) {
   .tech-icons {
     margin: 10px !important;
@@ -773,4 +778,16 @@ button:focus {
 }
 .fork-btn-inner::after {
   display: none !important;
+}
+
+.tech-stack-section {
+  padding-bottom: 50px;
+  justify-content: space-between;
+}
+
+@media (max-width: 767px) {
+  .tech-stack-section {
+    justify-content: center;
+  }
+
 }

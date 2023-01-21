@@ -1,6 +1,5 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import { ImPointRight } from "react-icons/im";
 
 function AboutCard() {
   return (
@@ -10,10 +9,10 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">YOUR NAME </span>
             from <span className="purple"> Bahawalpur, Pakistan.</span>
-            <br />I'm a professional freelancer offering real estate services including skip 
-tracing, lead generation, and cold calling, for U.S market. 
+            <br />I'm a professional freelancer offering real estate services including skip
+            tracing, lead generation, and cold calling, for U.S market.
             <br />
-            <br />      
+            <br />
           </p>
           <footer className="blockquote-footer">yourName</footer>
         </blockquote>

@@ -2,10 +2,11 @@
   position: relative !important;
   padding-top: 150px !important;
   padding-bottom: 30px !important;
-  background-image: var(--section-background-color) !important;
+  /* background-image: var(--section-background-color) !important; */
   color: white !important;
 }
-.logo-container{
+
+.logo-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -26,7 +27,8 @@
   overflow: hidden !important;
   transition: all 0.4s ease 0s !important;
 }
-.tech-icon-des{
+
+.tech-icon-des {
   font-size: 20px !important;
 
 }
@@ -42,6 +44,7 @@
   overflow: hidden !important;
   border: 2.2px solid rgba(197, 115, 230, 0.883) !important;
 }
+
 .tech-icon-images {
   padding: 20px !important;
   line-height: 1.6 !important;

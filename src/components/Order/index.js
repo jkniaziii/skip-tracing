@@ -7,8 +7,8 @@ const OrderPage = () => {
   return (
     <Container fluid className="about-section">
       <Particle />
-      <Container>       
-           <PlateForms /> 
+      <Container>
+        <PlateForms />
       </Container>
     </Container>
   )
