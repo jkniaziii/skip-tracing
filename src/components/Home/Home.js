@@ -19,7 +19,7 @@ function Home() {
               <div className="heading-name">
                 Accurate Realestate Services.
               </div>
-              <div>
+              <div style={{marginTop: 10, fontSize: 16, fontWeight: 'bold'}}>
               We assist our clients in achieving their goals by providing them with the most up-to-date real estate leads and accurate data. 
               We understand the critical importance of quality and accuracy in the real estate industry and strive to ensure that our clients 
               have the information they need to make informed decisions. Our team of experts is dedicated to staying current with the latest 
@@ -28,7 +28,7 @@ function Home() {
               </div>
             </Col>
 
-            <Col md={5} style={{ paddingBottom: 20 }}>
+            <Col md={5} >
               <img
                 src={homeLogo}
                 alt="home pic"

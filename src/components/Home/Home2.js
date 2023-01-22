@@ -15,7 +15,7 @@ function Home2() {
             </Tilt>
           </Col>
           <Col md={8} className="home-about-description">
-            <h1 style={{ fontSize: "2.6em" }}>
+            <h1 className="title-section">
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
@@ -24,7 +24,6 @@ function Home2() {
                 tracing, lead generation, and cold calling, </b>
               for U.S market
               <br />
-              <br />
               We have vast
               experience in this industry and hope that we'll be able to cater your
               needs. I have all relative tools and access for real estate projects. My
@@ -32,6 +31,11 @@ function Home2() {
               Estates leads. Thank you!!
 
             </p>
+          </Col>
+          <Col md={4} className="myAvtar d-xl-none">
+            <Tilt>
+              <img src={myImg} className="img-fluid" alt="avatar" />
+            </Tilt>
           </Col>
         </Row>
         <Row>

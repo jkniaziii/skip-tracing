@@ -356,6 +356,7 @@ button:focus {
   padding-top: 50px;
   font-size: 1.2em !important;
   text-align: left;
+  font-weight: bold;
 }
 
 .home-about-social {
@@ -825,3 +826,40 @@ button:focus {
   text-indent: -9999px;
   overflow:hidden; 
   }
+
+  @media (max-width: 767px) {
+    .title-section{
+      font-size: 20px;
+      font-weight: bold;
+      text-align: start;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .home-about-body {
+      padding-top: 10px;
+     font-size: 1em !important;
+     font-weight: 600;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .heading-name {
+      font-weight: 600;
+      font-size: 24px;
+      letter-spacing: 3px;
+      margin-top: 10px;
+    }
+  }
+
+@media (max-width: 767px) {
+  .home-content {
+    padding: 4rem 0 2rem !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .home-header{
+    padding-left: 25px !important;
+  }
+}
