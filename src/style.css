@@ -335,7 +335,6 @@ button:focus {
 
 @media (max-width: 767px) {
   .myAvtar {
-    padding-top: 2em !important;
     padding-bottom: 2em !important;
   }
 }
@@ -567,8 +566,8 @@ button:focus {
   font-weight: 500 !important;
   padding-top: 100px !important;
   padding-bottom: 10px !important;
-
 }
+
 
 /* --------- */
 /* About */
@@ -619,6 +618,7 @@ button:focus {
 @media (max-width: 767px) {
   .tech-icons {
     margin: 10px !important;
+    width: 95% !important;
   }
 }
 
@@ -807,7 +807,6 @@ button:focus {
 
 .circular_image {
   width: 100px;
-  height: 100px;
   border-radius: 50%;
   overflow: hidden;
   background-color: blue;
@@ -862,4 +861,22 @@ button:focus {
   .home-header{
     padding-left: 25px !important;
   }
+  .reviews-heading {
+    font-size: 20px !important;
+    font-weight: bold !important;
+    padding-top: 10px !important;
+  }
+  .project-card {
+    padding-top: 10px !important;
+  }
+  .about-section {
+    padding-top: 40px !important;
+  }
+  .project-heading {
+    font-size: 20px !important;
+    padding-bottom: 10px !important;
+    text-align: start;
+    font-weight: bold !important;
+  }
 }
+
